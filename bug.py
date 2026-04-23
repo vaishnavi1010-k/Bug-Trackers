@@ -1,6 +1,6 @@
 from flask import Flask, request, redirect, url_for, render_template_string
 
-app = Flask(_name_)
+app = Flask(__name__)
 
 # Dummy data (in-memory)
 users = []
